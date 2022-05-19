@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ResourceInspector; LANGUAGE = ObjC; SUPERCLASS = NSWindowController; }, 
+        {
+            CLASS = TypedInspector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {idField = NSTextField; versField = NSTextField; }; 
+            SUPERCLASS = ResourceInspector; 
+        }
+    ); 
+    IBVersion = 1; 
+}

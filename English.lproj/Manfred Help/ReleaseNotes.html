@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Manfred Release Notes</title>
+</head>
+
+<body>
+
+<H2 ALIGN="CENTER">Manfred Release Notes</H2>
+
+<H3>0.5 (2003 August 1)</H3>
+
+<UL>
+    <LI>Cleaned up Inspector window layouts for better behavior under window
+    resizing (Bug 766319).
+    <LI>Enabled access to basic help from the Help menu item (Bug 766580).
+    <LI>Fixed inclusion of current version number and file name in file Get Info. (Bug 772054)
+    <LI>Some placeholder nib files added to be used in later releases.
+</UL>
+
+<H3>0.4 (2003 July 7)</H3>
+
+<UL>
+    <LI>    Added resource name/type as instance variable identity (so it knows its 
+    own name)
+    <LI>    Show identity of property resource in HTML Dump.  Make Dump to 
+    file (note it is only partial HTML, missing the prologue and close).
+    <LI>    Placeholder ResourceInspector class to act as root for all resource 
+    inspectors.
+    <LI>    Generalized the InspectorDocument to handle non-Module files for 
+    opening, in particular: .hak, .erf., and .sav.
+    <LI>    Able to display .nss (NeverwinterScript Source) resources.
+</UL>
+
+<H3>0.3 (2003 May 26)</H3>
+
+<UL>
+    <LI>Initial Dump to HTML.  Changed Aggregate Type code from hex to decimal.
+    <LI> Removed null chars from ElementProperty names (fixing HTML dumps).
+    <LI>Labeled AggregateResource sub-inspector windows with file name.
+</UL>
+
+<H3>0.2 (2003 May 5)</H3>
+
+<UL>
+    <LI>Able to unpack PropertyResource (GFF) data including all property types 
+    (Though not all have been debugged).
+    <LI>    Able to inspect GFF resources via Module:Inspect when the resource is 
+    selected within the ERF inspector.
+</UL>
+
+<H3>0.1 (2003 April 15)</H3>
+
+<UL>
+    <LI>Basic Document based app functionality:  Module window open.
+    <LI>ERF (AggregateResource) Inspector accessed through Module:Inspect.
+    <LI>Module (TypedResource) Inspector access file type and version 
+    fields.
+    <LI>Aggregate Resource unpacks contents into header and creates member 
+    resources.
+</UL>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+    IBClasses = (
+        {CLASS = AggregateInspector; LANGUAGE = ObjC; SUPERCLASS = TypedInspector; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = OKCaprefProperty; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKDatrefProperty; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKDoubleProperty; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKElementProperty; LANGUAGE = ObjC; SUPERCLASS = OKProperty; }, 
+        {CLASS = OKEntryProperty; LANGUAGE = ObjC; SUPERCLASS = OKProperty; }, 
+        {CLASS = OKFloatProperty; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKInt16Property; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKInt32Property; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKInt64Property; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKInt8Property; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKListProperty; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKProperty; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = OKResrefProperty; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKStringProperty; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKStrrefProperty; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKUint16Property; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKUint32Property; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKUint64Property; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {CLASS = OKUint8Property; LANGUAGE = ObjC; SUPERCLASS = OKElementProperty; }, 
+        {
+            ACTIONS = {dumpToHTML = id; }; 
+            CLASS = PropertyInspector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {valueTextView = NSTextView; }; 
+            SUPERCLASS = TypedInspector; 
+        }, 
+        {
+            CLASS = TypedInspector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {idField = NSTextField; versField = NSTextField; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

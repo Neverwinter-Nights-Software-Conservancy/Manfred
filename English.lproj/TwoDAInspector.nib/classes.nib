@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {okInspect = id; }; 
+            CLASS = AggregateInspector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {resourceTableView = NSTableView; }; 
+            SUPERCLASS = TypedInspector; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PropertyInspector; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = TypedInspector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {idField = NSTextField; versField = NSTextField; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

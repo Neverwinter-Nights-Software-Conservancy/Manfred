@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Manfred Help</title>
+  <META NAME="AppleTitle" CONTENT="Manfred">
+</head>
+
+<body>
+  <h2 align="center">Manfred Help (v 0.4.1)</h2>
+  
+  
+  <H3 ALIGN="LEFT">What is Manfred?</H3>
+  
+  <P>
+  Manfred is a Cocoa/Objective C based framework for inspecting (and
+  eventually
+  modifying) resources for the game Neverwinter Nights by Bioware Corp.
+  (ERF/GFF based resources, at least).  The primary focus, at least
+  initially, is to provide Mac users an easy way to view and document
+  resources for the OKDocs project.  Manfred is an affiliated project of 
+  the <A HREF="http://openknights.sourceforge.net/">Open Knights consortium</A>.
+  </P>
+  
+  <H3>Why Manfred?</H3>
+  
+  <P>
+  I wanted to call it GNOME for General Neverwinter Object and Module 
+  Editor, but apparently this is locked up by some obscure unix desktop
+  program.
+  And Mighty Manfred was the name of my only gnome PC in my decades of Dungeons and Dragons.  
+  He was the sidekick of an illusionist named Tom Terrific.  Bonus points to anyone 
+  who understands this relationship.
+  </P>
+  
+  <H3>What can you do with Manfred?</H3>
+  
+  <P>
+  At present you can open an inspector on a variety of NWN data files, using the 
+  <I>File:Open</I> menu item (or <CODE>CMD-O</CODE>).  This currently includes modules
+  (.mod, .nwn, and .sav) as well as other
+   <A HREF="http://nwn.bioware.com/developers/erf.html">ERF</A> and 
+   <A HREF="http://nwn.bioware.com/developers/gff.html">GFF</A> format files,
+   in particular
+  hak files (.hak).  Opening a module may take a while if it's particularly large.  
+  </P>
+  
+  <P>
+  For ERF format resources, like modules, the inspector
+  will display the contents of the module as a list of resources with 
+  their type and codes.  You can open an inspector on some 
+  resources by selecting the resources in the list, and then selecting 
+  <I>Module:Inspect</I>.  At present GFF format resources (which covers the
+  vast majority) and NSS (scripts) are covered.</P>
+  
+  <P>
+  Please note that the display of the resource contents is far from nice, 
+  and that there is at present no way to modify and save any resource 
+  contents.  GFF resources may be dumped to an HTML-friendly
+  format file, by pressing the
+  button on the inspector window.
+  </P>
+  
+  <P>
+  You can monitor recent improvements and updates to Manfred through 
+  the <A HREF="ReleaseNotes.html">Release Notes</A>
+  </P>
+  
+  <H3>That's it?  That's not very much.</H3>
+  
+  <P>
+  Well, Manfred was a project mostly to allow me to learn more about 
+  implementing something in Objective C.  As such there are a lot of lose 
+  ends.  I intend to take it to the point where it can at least save simple 
+  changes to GFF resources, and maybe directly open them from files (and 
+  from .HAK and ERF files).  Additional capabilities may be added at a 
+  later time, if there is interest.
+  </P>
+  
+  <P>
+  Note that there are other projects at the Open Knights which may offer 
+  better (cross platform) tools.  People are especially directed to the 
+  "neveredit" project.
+  </P>
+  
+  <P>
+  Manfred is open source, subject to the Open Knights general license (see 
+  the 
+  <A HREF="ManfredLicense.html">ManfredLicnese.html</A> file).
+  If <I>you</I> would like to use, or 
+  modify the code, you are free file to do so, subject to the terms of said 
+  license.  The best way to do so would be as a fellow member of the OK 
+  consortium.  See the <A 
+  HREF="http://sourceforge.net/docman/display_doc.php?docid=15358&group_id=71486">
+  OK FAQ</A> for details.
+  </P>
+  
+  <P>
+  Bugs and feature requests can be submitted through the Open Knights' 
+  Source Forge supported <A
+  HREF="http://sourceforge.net/tracker/?group_id=71486">tracker facility</A>.
+  </P>
+  
+  
+</body>
+</html>

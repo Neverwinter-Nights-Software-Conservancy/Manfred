@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ResourceInspector; LANGUAGE = ObjC; SUPERCLASS = NSWindowController; }, 
+        {
+            CLASS = ScriptInspector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {scriptTextView = NSTextView; }; 
+            SUPERCLASS = ResourceInspector; 
+        }
+    ); 
+    IBVersion = 1; 
+}
